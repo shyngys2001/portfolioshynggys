@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- REPLACE: your name and description -->
+  <title>About — Alex Morgan</title>
+  <meta name="description" content="Learn more about Alex Morgan — CS student, full-stack developer, and lifelong learner." />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR — identical on every page
+       REPLACE: "AM" with your initials
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">AM<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+         PAGE HEADER
+         ============================================================ -->
+    <header class="page-header">
+      <div class="bg-orb bg-orb-1"></div>
+      <div class="container">
+        <span class="page-header-tag">About Me</span>
+        <!-- REPLACE: your name -->
+        <h1 class="page-header-title">The Person <span class="gradient-text">Behind the Code</span></h1>
+        <p class="page-header-subtitle">
+          A driven CS student who loves building things, solving hard problems,
+          and learning something new every single day.
+        </p>
+      </div>
+    </header>
+
+    <!-- ============================================================
+         INTRO SECTION
+         REPLACE all placeholder text with your real story.
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="about-intro">
+
+          <!-- Profile photo -->
+          <div class="about-img-wrap reveal">
+            <div class="about-img-container">
+              <!--
+                REPLACE: Drop your photo at assets/images/profile.jpg
+                Update alt text with your name.
+              -->
+              <img
+                src="assets/images/profile.jpg"
+                alt="Alex Morgan — about photo"
+                class="about-img"
+              />
+              <!-- Fallback initials — REPLACE "AM" with your initials -->
+              <div class="about-img-fallback" aria-hidden="true">AM</div>
+            </div>
+            <div class="about-img-accent"></div>
+            <div class="about-img-accent-2"></div>
+          </div>
+
+          <!-- Bio text -->
+          <div class="about-text reveal reveal-delay-2">
+            <span class="section-tag">Introduction</span>
+
+            <!-- REPLACE: your name and headline -->
+            <h2>Hi, I'm <span class="gradient-text">Alex Morgan</span> — I turn ideas into real software.</h2>
+
+            <!--
+              REPLACE: Write 2–4 paragraphs about yourself.
+              Keep it honest, personal, and professional.
+            -->
+            <p>
+              I'm a third-year Computer Science student at State University with a deep
+              passion for full-stack web development and software engineering. I started
+              coding at 15 out of curiosity, and since then it's become both my biggest
+              hobby and the career I'm building toward.
+            </p>
+            <p>
+              My experience spans frontend frameworks like React and Vue.js, backend
+              development with Node.js and Python, and working with databases ranging
+              from relational (PostgreSQL) to NoSQL (MongoDB). I love the process of
+              turning a rough idea into a clean, working product that real people use.
+            </p>
+            <p>
+              Outside of coding I enjoy reading about AI research, contributing to open
+              source, and collaborating with other developers. I'm currently looking for
+              internship opportunities where I can grow as an engineer and make a
+              meaningful contribution.
+            </p>
+
+            <!-- REPLACE: update these quick facts -->
+            <div class="about-quick-facts">
+              <div class="fact-item"><span>📍</span> New York, USA</div>
+              <div class="fact-item"><span>🎓</span> CS Student, Class of 2026</div>
+              <div class="fact-item"><span>💼</span> Open to Internships</div>
+              <div class="fact-item"><span>🌐</span> English &amp; Spanish</div>
+            </div>
+
+            <div class="about-actions">
+              <a href="projects.html" class="btn btn-primary">View My Projects</a>
+              <!--
+                REPLACE: Link to your actual CV/resume PDF.
+                Upload it as assets/resume.pdf or link to an external URL.
+              -->
+              <a href="assets/resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">
+                Download CV
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EDUCATION SECTION
+         REPLACE with your actual education history.
+         ============================================================ -->
+    <section class="section" style="background: var(--bg-secondary); padding-top: 0; padding-bottom: var(--sp-2xl);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academic Background</h2>
+          <p class="section-subtitle">The institutions and programs that have shaped my technical foundation.</p>
+        </div>
+
+        <div class="education-grid">
+
+          <!-- REPLACE: your current degree program -->
+          <div class="glass-card edu-card reveal reveal-delay-1">
+            <div class="edu-period">2022 — Present</div>
+            <div class="edu-degree">B.Sc. Computer Science</div>
+            <!-- REPLACE: your university name -->
+            <div class="edu-school">🏛 State University, New York</div>
+            <p class="edu-desc">
+              Core focus on algorithms, data structures, software engineering,
+              and machine learning. GPA: 3.8 / 4.0. Dean's List (2023, 2024).
+            </p>
+          </div>
+
+          <!-- REPLACE: another qualification, certification, or bootcamp -->
+          <div class="glass-card edu-card reveal reveal-delay-2">
+            <div class="edu-period">2021</div>
+            <div class="edu-degree">Full-Stack Web Development</div>
+            <div class="edu-school">🏅 Udemy — Online Certification</div>
+            <p class="edu-desc">
+              Completed a 60-hour full-stack course covering React, Node.js,
+              Express, and MongoDB — building 5 end-to-end projects.
+            </p>
+          </div>
+
+          <!-- REPLACE: optional third entry — award, exchange, minor, etc. -->
+          <div class="glass-card edu-card reveal reveal-delay-3">
+            <div class="edu-period">2023</div>
+            <div class="edu-degree">AWS Certified Cloud Practitioner</div>
+            <div class="edu-school">☁️ Amazon Web Services</div>
+            <p class="edu-desc">
+              Certified in core AWS services including EC2, S3, Lambda, and
+              cloud architecture fundamentals.
+            </p>
+          </div>
+
+          <!-- REPLACE: extracurricular, hackathon, or other achievement -->
+          <div class="glass-card edu-card reveal reveal-delay-4">
+            <div class="edu-period">2024</div>
+            <div class="edu-degree">Hackathon — 1st Place</div>
+            <div class="edu-school">🏆 HackNY Regional Hackathon</div>
+            <p class="edu-desc">
+              Led a team of 4 to build an AI-powered study assistant in 36
+              hours — won first place in the Education track.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SKILLS SECTION
+         REPLACE tags with your real skills.
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Technical Toolkit</h2>
+          <p class="section-subtitle">Technologies and tools I use to bring ideas to life.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- REPLACE: your frontend skills -->
+          <div class="glass-card skill-category reveal reveal-delay-1">
+            <div class="skill-category-title">
+              <span>🖥</span> Frontend
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Vue.js</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Figma</span>
+            </div>
+          </div>
+
+          <!-- REPLACE: your backend skills -->
+          <div class="glass-card skill-category reveal reveal-delay-2">
+            <div class="skill-category-title">
+              <span>⚙️</span> Backend
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag t2">Node.js</span>
+              <span class="skill-tag t2">Express.js</span>
+              <span class="skill-tag t2">Python</span>
+              <span class="skill-tag t2">Flask</span>
+              <span class="skill-tag t2">REST APIs</span>
+              <span class="skill-tag t2">GraphQL</span>
+            </div>
+          </div>
+
+          <!-- REPLACE: your database / devops skills -->
+          <div class="glass-card skill-category reveal reveal-delay-3">
+            <div class="skill-category-title">
+              <span>🗄</span> Databases &amp; DevOps
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag t2">Docker</span>
+              <span class="skill-tag t2">Git &amp; GitHub</span>
+              <span class="skill-tag t2">AWS</span>
+              <span class="skill-tag t2">CI / CD</span>
+            </div>
+          </div>
+
+          <!-- REPLACE: other tools or areas -->
+          <div class="glass-card skill-category reveal reveal-delay-4">
+            <div class="skill-category-title">
+              <span>🤖</span> AI / ML &amp; Other
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag t2">TensorFlow</span>
+              <span class="skill-tag t2">scikit-learn</span>
+              <span class="skill-tag t2">NumPy</span>
+              <span class="skill-tag t2">Pandas</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Postman</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PERSONAL QUALITIES
+         REPLACE with your actual values and traits.
+         ============================================================ -->
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Values</span>
+          <h2 class="section-title">What Drives Me</h2>
+          <p class="section-subtitle">The principles I bring to every project and every team.</p>
+        </div>
+
+        <div class="qualities-grid">
+
+          <div class="glass-card quality-card reveal reveal-delay-1">
+            <span class="quality-icon">🔍</span>
+            <!-- REPLACE: trait name and description -->
+            <h3 class="quality-title">Curious</h3>
+            <p class="quality-desc">I dig deep into problems, always asking "why" before reaching for a solution.</p>
+          </div>
+
+          <div class="glass-card quality-card reveal reveal-delay-2">
+            <span class="quality-icon">🤝</span>
+            <h3 class="quality-title">Collaborative</h3>
+            <p class="quality-desc">I thrive in teams, value diverse perspectives, and communicate openly and honestly.</p>
+          </div>
+
+          <div class="glass-card quality-card reveal reveal-delay-3">
+            <span class="quality-icon">⚡</span>
+            <h3 class="quality-title">Fast Learner</h3>
+            <p class="quality-desc">I pick up new frameworks, languages, and concepts quickly and apply them effectively.</p>
+          </div>
+
+          <div class="glass-card quality-card reveal reveal-delay-4">
+            <span class="quality-icon">🎯</span>
+            <h3 class="quality-title">Detail-Oriented</h3>
+            <p class="quality-desc">From code quality to UI polish, I sweat the small stuff so users don't have to.</p>
+          </div>
+
+          <div class="glass-card quality-card reveal reveal-delay-5">
+            <span class="quality-icon">💡</span>
+            <h3 class="quality-title">Problem Solver</h3>
+            <p class="quality-desc">I stay calm under pressure and break complex challenges into manageable steps.</p>
+          </div>
+
+          <div class="glass-card quality-card reveal reveal-delay-1">
+            <span class="quality-icon">🌱</span>
+            <h3 class="quality-title">Growth Mindset</h3>
+            <p class="quality-desc">Feedback is a gift. I actively seek critique and use it to level up consistently.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER — REPLACE "AM" and "Alex Morgan" with your info
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">AM<span class="dot">.</span></div>
+      <p class="footer-text">&copy; 2025 Alex Morgan. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
