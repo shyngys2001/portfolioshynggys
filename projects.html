@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Projects — Muratuly Shynggys</title>
-  <meta name="description" content="Explore the projects built by Muratuly Shynggys — full-stack web apps, AI experiments, and developer tools." />
+  <meta name="description" content="Real projects by Muratuly Shynggys — drone monitoring platforms, UAV video analytics, finance tools, and more." />
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -54,8 +54,8 @@
         <span class="page-header-tag">My Work</span>
         <h1 class="page-header-title">Projects &amp; <span class="gradient-text">Case Studies</span></h1>
         <p class="page-header-subtitle">
-          A selection of things I've built — from full-stack web applications
-          to AI experiments and open-source developer tools.
+          Real-world platforms, tools, and products I've built —
+          from enterprise drone monitoring systems to intelligent automation bots.
         </p>
       </div>
     </header>
@@ -67,241 +67,286 @@
         <!-- Filter buttons -->
         <div class="projects-filter reveal">
           <button class="filter-btn active" data-filter="all">All Projects</button>
-          <button class="filter-btn" data-filter="web">Web Apps</button>
-          <button class="filter-btn" data-filter="ai">AI / ML</button>
-          <button class="filter-btn" data-filter="tool">Tools</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Platforms</button>
+          <button class="filter-btn" data-filter="ai">AI / Analytics</button>
+          <button class="filter-btn" data-filter="tool">Bots &amp; Tools</button>
         </div>
 
         <div class="projects-grid">
 
-          <!-- PROJECT 1 — Featured -->
+          <!-- =====================================================
+               PROJECT 1 — KazakhTelecom Drone Operations Platform
+               ===================================================== -->
           <div class="glass-card project-card reveal reveal-delay-1" data-category="web">
             <div class="project-featured-tag">⭐ Featured</div>
 
             <div class="project-card-top">
-              <div class="project-icon">🛒</div>
+              <div class="project-icon">🛸</div>
               <div class="project-links">
-                <!--
-                  LINKS: Replace href="#" with your actual GitHub repo and live demo URLs.
-                -->
-                <a href="#" class="project-link-btn" title="GitHub Repository" target="_blank" rel="noopener">
+                <a href="https://github.com/shynggys/KazakhTelecom"
+                   class="project-link-btn" title="GitHub Repository"
+                   target="_blank" rel="noopener">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
-                  </svg>
-                </a>
-                <a href="#" class="project-link-btn" title="Live Demo" target="_blank" rel="noopener">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
                   </svg>
                 </a>
               </div>
             </div>
 
-            <h3 class="project-title">E-Commerce Platform</h3>
+            <h3 class="project-title">KazakhTelecom Drone Operations Platform</h3>
 
             <p class="project-description">
-              A full-featured online store with product catalogue, shopping cart,
-              secure user authentication, and a Stripe-powered checkout flow.
-              Built with a mobile-first approach and optimised for performance.
+              An enterprise-grade operational command platform for managing drone
+              infrastructure at scale. Provides real-time visibility into fleet
+              activity, dock statuses, device health, weather conditions, and
+              regional inventory — all unified in a single operator dashboard.
+              Built to serve large-scale UAV deployment and monitoring workflows.
             </p>
 
             <div class="tech-stack">
               <span class="tech-tag">React</span>
               <span class="tech-tag">Node.js</span>
               <span class="tech-tag">Express</span>
-              <span class="tech-tag">MongoDB</span>
-              <span class="tech-tag">Stripe API</span>
-              <span class="tech-tag">JWT Auth</span>
-            </div>
-
-            <div class="project-footer">
-              <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
-                View Project →
-              </a>
-            </div>
-          </div>
-
-          <!-- PROJECT 2 -->
-          <div class="glass-card project-card reveal reveal-delay-2" data-category="ai">
-            <div class="project-card-top">
-              <div class="project-icon">🤖</div>
-              <div class="project-links">
-                <a href="#" class="project-link-btn" title="GitHub Repository" target="_blank" rel="noopener">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                </a>
-                <a href="#" class="project-link-btn" title="Live Demo" target="_blank" rel="noopener">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <h3 class="project-title">AI Study Assistant</h3>
-
-            <p class="project-description">
-              An intelligent study tool that uses NLP to generate practice
-              questions, summarise lecture notes, and track a student's
-              progress over time with personalised recommendations.
-            </p>
-
-            <div class="tech-stack">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">Flask</span>
-              <span class="tech-tag">TensorFlow</span>
-              <span class="tech-tag">OpenAI API</span>
-              <span class="tech-tag">React</span>
               <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">REST API</span>
+              <span class="tech-tag">Leaflet.js</span>
+              <span class="tech-tag">Docker</span>
             </div>
 
             <div class="project-footer">
-              <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
-                View Project →
-              </a>
-            </div>
-          </div>
-
-          <!-- PROJECT 3 -->
-          <div class="glass-card project-card reveal reveal-delay-3" data-category="web">
-            <div class="project-card-top">
-              <div class="project-icon">✅</div>
-              <div class="project-links">
-                <a href="#" class="project-link-btn" title="GitHub Repository" target="_blank" rel="noopener">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                </a>
-                <a href="#" class="project-link-btn" title="Live Demo" target="_blank" rel="noopener">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <h3 class="project-title">Task Management App</h3>
-
-            <p class="project-description">
-              A real-time collaborative task manager featuring drag-and-drop
-              Kanban boards, team workspaces, deadline reminders, and live
-              updates powered by Firebase.
-            </p>
-
-            <div class="tech-stack">
-              <span class="tech-tag">Vue.js</span>
-              <span class="tech-tag">Firebase</span>
-              <span class="tech-tag">Firestore</span>
-              <span class="tech-tag">Vuex</span>
-              <span class="tech-tag">CSS3</span>
-            </div>
-
-            <div class="project-footer">
-              <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
-                View Project →
-              </a>
-            </div>
-          </div>
-
-          <!-- PROJECT 4 -->
-          <div class="glass-card project-card reveal reveal-delay-4" data-category="ai">
-            <div class="project-card-top">
-              <div class="project-icon">📊</div>
-              <div class="project-links">
-                <a href="#" class="project-link-btn" title="GitHub Repository" target="_blank" rel="noopener">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                </a>
-                <a href="#" class="project-link-btn" title="Live Demo" target="_blank" rel="noopener">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <h3 class="project-title">Stock Price Predictor</h3>
-
-            <p class="project-description">
-              An LSTM-based machine learning model that predicts short-term
-              stock price trends using historical market data, with an
-              interactive dashboard featuring live charts and trend indicators.
-            </p>
-
-            <div class="tech-stack">
-              <span class="tech-tag">Python</span>
-              <span class="tech-tag">TensorFlow</span>
-              <span class="tech-tag">Pandas</span>
-              <span class="tech-tag">Matplotlib</span>
-              <span class="tech-tag">Flask</span>
-              <span class="tech-tag">Chart.js</span>
-            </div>
-
-            <div class="project-footer">
-              <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
-                View Project →
-              </a>
-            </div>
-          </div>
-
-          <!-- PROJECT 5 -->
-          <div class="glass-card project-card reveal reveal-delay-1" data-category="tool">
-            <div class="project-card-top">
-              <div class="project-icon">🔧</div>
-              <div class="project-links">
-                <a href="#" class="project-link-btn" title="GitHub Repository" target="_blank" rel="noopener">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                </a>
-              </div>
-            </div>
-
-            <h3 class="project-title">CLI Code Scaffold Tool</h3>
-
-            <p class="project-description">
-              A command-line utility that generates ready-to-use project
-              structures for Node.js, React, and Python apps in seconds —
-              removing boilerplate friction from every new project.
-            </p>
-
-            <div class="tech-stack">
-              <span class="tech-tag">Node.js</span>
-              <span class="tech-tag">Commander.js</span>
-              <span class="tech-tag">Inquirer.js</span>
-              <span class="tech-tag">npm</span>
-            </div>
-
-            <div class="project-footer">
-              <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener">
+              <a href="https://github.com/shynggys/KazakhTelecom"
+                 class="btn btn-sm btn-primary"
+                 target="_blank" rel="noopener">
                 View on GitHub →
               </a>
             </div>
           </div>
 
-          <!-- PROJECT 6 — This Portfolio -->
-          <div class="glass-card project-card reveal reveal-delay-2" data-category="tool">
+          <!-- =====================================================
+               PROJECT 2 — UAV VideoWall Analytics
+               ===================================================== -->
+          <div class="glass-card project-card reveal reveal-delay-2" data-category="ai">
+            <div class="project-featured-tag">⭐ Featured</div>
+
             <div class="project-card-top">
-              <div class="project-icon">🌐</div>
+              <div class="project-icon">📡</div>
               <div class="project-links">
-                <!--
-                  LINKS: Replace href="#" with your GitHub repo for this portfolio.
-                -->
-                <a href="#" class="project-link-btn" title="GitHub Repository" target="_blank" rel="noopener">
+                <a href="https://github.com/shynggys/videowall-stream_uav"
+                   class="project-link-btn" title="GitHub Repository"
+                   target="_blank" rel="noopener">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">UAV VideoWall Analytics</h3>
+
+            <p class="project-description">
+              A real-time multi-stream video wall platform designed for UAV
+              operators. Aggregates live feeds from multiple drones into a single
+              unified interface with AI-powered detection overlays — identifying
+              smoke, fire, waste, and other incidents as they appear. Built for
+              high-stakes operational environments where situational awareness
+              and response speed are critical.
+            </p>
+
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">YOLO</span>
+              <span class="tech-tag">FFmpeg</span>
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/shynggys/videowall-stream_uav"
+                 class="btn btn-sm btn-primary"
+                 target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <!-- =====================================================
+               PROJECT 3 — Smart Expense Tracker
+               ===================================================== -->
+          <div class="glass-card project-card reveal reveal-delay-3" data-category="web">
+
+            <div class="project-card-top">
+              <div class="project-icon">💰</div>
+              <div class="project-links">
+                <a href="https://github.com/shynggys/expense_bot"
+                   class="project-link-btn" title="GitHub Repository"
+                   target="_blank" rel="noopener">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
                 </a>
-                <a href="index.html" class="project-link-btn" title="Live Site">
+              </div>
+            </div>
+
+            <h3 class="project-title">Smart Expense Tracker</h3>
+
+            <p class="project-description">
+              A dual-interface personal finance platform combining a responsive
+              web dashboard with a Telegram bot. Processes bank statements to
+              auto-categorise transactions, visualises spending patterns with
+              charts, tracks budgets over time, and delivers reporting through
+              conversational bot interactions — making financial awareness
+              frictionless and always accessible.
+            </p>
+
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">aiogram</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Chart.js</span>
+              <span class="tech-tag">Telegram API</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/shynggys/expense_bot"
+                 class="btn btn-sm btn-primary"
+                 target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <!-- =====================================================
+               PROJECT 4 — Pass — Secure Access Validation
+               ===================================================== -->
+          <div class="glass-card project-card reveal reveal-delay-4" data-category="tool">
+
+            <div class="project-card-top">
+              <div class="project-icon">🔐</div>
+              <div class="project-links">
+                <a href="https://github.com/shynggys/pass"
+                   class="project-link-btn" title="GitHub Repository"
+                   target="_blank" rel="noopener">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Pass — Secure Access Validation</h3>
+
+            <p class="project-description">
+              A credential validation and authentication module implementing
+              secure login workflows, structured input verification rules, and
+              access control logic. Designed as a clean, self-contained solution
+              that integrates reliably into applications requiring dependable
+              user authentication and a smooth, secure login experience.
+            </p>
+
+            <div class="tech-stack">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">bcrypt</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/shynggys/pass"
+                 class="btn btn-sm btn-primary"
+                 target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <!-- =====================================================
+               PROJECT 5 — Courier Ordering Bot
+               ===================================================== -->
+          <div class="glass-card project-card reveal reveal-delay-1" data-category="tool">
+
+            <div class="project-card-top">
+              <div class="project-icon">🤖</div>
+              <div class="project-links">
+                <a href="https://github.com/shynggys/for_couriers"
+                   class="project-link-btn" title="GitHub Repository"
+                   target="_blank" rel="noopener">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Courier Ordering Bot</h3>
+
+            <p class="project-description">
+              A Telegram-native food ordering bot built for local commerce.
+              Customers browse the store catalogue, select items, and complete
+              their order entirely within Telegram — no external app required.
+              Streamlines the end-to-end ordering and delivery handoff workflow
+              for both customers and courier staff.
+            </p>
+
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">aiogram</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Telegram Bot API</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/shynggys/for_couriers"
+                 class="btn btn-sm btn-primary"
+                 target="_blank" rel="noopener">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <!-- =====================================================
+               PROJECT 6 — CrownMebel Premium Furniture Platform
+               ===================================================== -->
+          <div class="glass-card project-card reveal reveal-delay-2" data-category="web">
+
+            <div class="project-card-top">
+              <div class="project-icon">🪑</div>
+              <div class="project-links">
+                <a href="https://github.com/shynggys/CrownMebel"
+                   class="project-link-btn" title="GitHub Repository"
+                   target="_blank" rel="noopener">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.572C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="#" class="project-link-btn" title="Live Demo" target="_blank" rel="noopener">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                 </a>
               </div>
             </div>
 
-            <h3 class="project-title">This Portfolio Website</h3>
+            <h3 class="project-title">CrownMebel — Premium Furniture Platform</h3>
 
             <p class="project-description">
-              A fully static, responsive personal portfolio built from scratch
-              with pure HTML, CSS, and vanilla JavaScript — deployed on
-              GitHub Pages with no build tools or dependencies required.
+              A digital showcase platform built for a high-end custom furniture
+              workshop. Presents bespoke collections with a focus on
+              craftsmanship, material quality, and brand identity — giving the
+              studio a premium online presence that matches the calibre of its
+              products. Features a curated catalogue, custom order flow, and
+              an elegant client-facing presentation layer.
             </p>
 
             <div class="tech-stack">
               <span class="tech-tag">HTML5</span>
               <span class="tech-tag">CSS3</span>
               <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">GitHub Pages</span>
+              <span class="tech-tag">React</span>
             </div>
 
             <div class="project-footer">
-              <a href="index.html" class="btn btn-sm btn-primary">
-                You're Here →
+              <a href="https://github.com/shynggys/CrownMebel"
+                 class="btn btn-sm btn-primary"
+                 target="_blank" rel="noopener">
+                View on GitHub →
               </a>
             </div>
           </div>
@@ -321,9 +366,6 @@
           </p>
           <div class="cta-band-actions">
             <a href="contact.html" class="btn btn-primary">Get In Touch</a>
-            <!--
-              GITHUB: Replace with your actual GitHub profile URL.
-            -->
             <a href="https://github.com/shynggys" class="btn btn-outline" target="_blank" rel="noopener">
               GitHub Profile
             </a>
@@ -338,7 +380,7 @@
   <footer class="footer">
     <div class="container footer-content">
       <div class="footer-logo">MS<span class="dot">.</span></div>
-      <p class="footer-text">&copy; 2025 Muratuly Shynggys. All rights reserved.</p>
+      <p class="footer-text">&copy; 2026 Muratuly Shynggys. All rights reserved.</p>
       <nav class="footer-nav" aria-label="Footer navigation">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
